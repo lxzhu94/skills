@@ -1,0 +1,30 @@
+{
+  "name": "oss-radar-intel",
+  "version": "0.1.0",
+  "description": "AI 新闻 / HuggingFace 论文 / GitHub 新开源项目抓取 CLI · 零依赖",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "daily": "node scripts/run-daily.mjs",
+    "schedule": "node scripts/schedule.mjs",
+    "news": "node scripts/fetch.mjs news",
+    "papers": "node scripts/fetch.mjs papers",
+    "repos": "node scripts/fetch.mjs repos",
+    "all": "node scripts/fetch.mjs all",
+    "serve": "node scripts/serve.mjs",
+    "quick": "node scripts/quick.mjs",
+    "start": "node scripts/quick.mjs"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ai-news",
+    "agent-skill",
+    "huggingface",
+    "github-trending",
+    "hacker-news"
+  ]
+}

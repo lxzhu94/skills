@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>oss-radar · 团队情报流</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/light.css">
+  <meta name="description" content="AI 新闻 · 论文 · 开源项目 · 本地报告">
+</head>
+<body>
+  <div id="page-loader" class="page-loader" aria-hidden="true"><div class="loader-spinner"></div></div>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="./" class="brand" aria-label="oss-radar">
+        <img src="./favicon.svg" alt="">
+        oss<span class="dot">-</span>radar
+      </a>
+      <nav class="nav-tabs"></nav>
+      <div class="topbar-status"></div>
+      <div class="topbar-spacer"></div>
+      <button id="theme-toggle" class="theme-toggle" type="button">浅色</button>
+    </div>
+    <div class="topbar-sub"></div>
+  </header>
+
+  <main>
+    <section id="team-list-root"></section>
+    <section id="latest-radar-root"></section>
+  </main>
+
+  <footer>
+    oss-radar · 每日 AI 情报 · <a href="./archive.html">归档</a>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
